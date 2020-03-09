@@ -20,13 +20,11 @@
 
     <table>
         <tr>
-            <td><img src="./image/Sketch.png" alt="Biniyam's profile picture"></td>
+            <td><img src="./image/Sketch.png" alt="Biniyam's profile picture" height="350" width="350"></td>
             <td>
                 <h1>Biniyam Abiy</h1>
                 <h3>Student, Addis Ababa university</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis voluptatum error, molestias
-                    dolorum nemo aut qui fuga ullam atque, dignissimos omnis beatae ipsam non dolor illo,
-                    vero porro temporibus a.</p>
+                <p>Young, black and gifted.</p>
                 <hr>
             </td>
         </tr>
@@ -35,15 +33,18 @@
 
     <!-- Contact form -->
     <h3>Leave your comment here</h3>
-    <form method="POST" action="mailto:boniabiy@gmail.com" enctype="utf-8">
-        <table>
+    <table>
+    <tr>
+    <td>
+    <table>
+        <form method="POST" action="mailto:boniabiy@gmail.com" enctype="utf-8">
             <tr>
                 <td><label for="fName">First Name</label>&nbsp;&nbsp;</td>
-                <td><input type="text" required name="fName" id="fName" pattern="[a-z][A-Z]{4,15}"></td>
+                <td><input type="text" required name="fName" id="fName" pattern="[a-z][A-Z]{1,15}"></td>
             </tr>
             <tr>
                 <td><label for="fName">Last Name</label>&nbsp;&nbsp;</td>
-                <td><input type="text" required name="lName" id="lName" pattern="[a-z][A-Z]{4,15}"></td>
+                <td><input type="text" required name="lName" id="lName" pattern="[a-z][A-Z]{1,15}"></td>
             </tr>
             <tr>
                 <td><label for="pword">Password</label>&nbsp;&nbsp;</td>
@@ -82,17 +83,12 @@
                 <td></td>
                 <td><input type="submit" value="submit"></td>
             </tr>
-        </table>
-    
-        <br>
-        <br>
-        <br>
-    </form>
-
-    <hr>
-    <div class="mapouter">
+        </form>
+    </table>
+    </td>
+    <td><div class="mapouter">
         <div class="mapouter">
-            <div class="gmap_canvas"><iframe width="100%" height="344" id="gmap_canvas"
+            <div class="gmap_canvas"><iframe width="750" height="344" id="gmap_canvas"
                     src="https://maps.google.com/maps?q=addis ababa university&t=&z=17&ie=UTF8&iwloc=&output=embed"
                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a
                     href="https://www.embedgooglemap.net">embedgooglemap.net</a></div>
@@ -103,7 +99,7 @@
                     height: 344px;
                     width: 100%;
                 }
-        
+    
                 .gmap_canvas {
                     overflow: hidden;
                     background: none !important;
@@ -112,7 +108,10 @@
                 }
             </style>
         </div>
-    </div>    
+    </div></td>
+    </tr>
+    </table>
+        
     <br>
     <br>
     <hr>

@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mycv</title>
     <link rel="icon" href="./image/head.ico">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <style>
+        body{
+            background-image: url(./image/dog.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+    </style>
 </head>
 
 <body>
@@ -48,7 +57,7 @@
             </tr>
             <tr>
                 <td><label for="pword">Password</label>&nbsp;&nbsp;</td>
-                <td><input type="password" required name="pword" id="pword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"></td>
+                <td><input type="password" required name="pword" id="pword" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{6,}"></td>
             </tr>
             <tr>
                 <td><label for="email">Email</label>&nbsp;&nbsp;</td>

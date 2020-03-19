@@ -31,6 +31,7 @@ body{
     margin-left: 22%;
     width: 50%;
 }
+
 #img_desc > *{
     color: white;
     text-align: center;
@@ -46,6 +47,7 @@ body{
     padding-left: 20%;
     margin-bottom: 20px;
 }
+
 .two > *{
     color: white;
 }

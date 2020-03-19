@@ -1,22 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-image: url(../image/img4.jpg);
+    text-decoration-color: white; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nav > a{
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+}
+
+#nav > a:hover{
+  background-color: gold;
+}
+
+
+#nav{
+    padding-top: 10px;
+    background-color: blueviolet;
+    height: 30px;
+}
+
+#nav > a:active{
+    background-color: tomato;
+}
+
+
+#img_desc{
+    float: left;
+    margin-top: 20px;
+    margin-left: 22%;
+    width: 50%;
+    border-bottom: 4px ridge white;
+    padding-bottom: 30px;
+}
+
+#img_desc > *{
+    color: white;
+    text-align: center;
+}
+
+#img_desc > img{
+    margin-left: 24%;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
 #one_text{
     text-transform: uppercase;
-    font-size: large;
+    color: white;
+    font-size: 1.3rem;
     font-style: italic;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 10px;
-    text-align: center;
+    margin-top: 520px;
+    width: 17%;
+    margin-left: 40%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    border-bottom: 3px ridge white;;
+
 }
-p{
-    border-bottom: 5px solid red;
-    border-bottom-width: 5px;
-}
+
 #the_container{
     float: left;
+    margin-top: 50px;
 }
 #the_container > img{
     width: 30%;
     border-bottom: maroon;
     padding-bottom: 30px;
     margin: 0% 1.5%;
+}
+
+#credits > p{
+    color: white;
+    font-size: large;
+}
+
+#credits{
+    padding-bottom: 30px;
 }

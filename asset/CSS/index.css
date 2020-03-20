@@ -11,6 +11,10 @@ body{
     background-size: cover;
 }
 
+ul, li, h3{
+    margin: 10px;
+}
+
 #nav > a{
     color: white;
     text-decoration-line: none;

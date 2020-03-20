@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-image: url(../image/img4.jpg);
+    text-decoration-color: white; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#one_text{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4%;
+    width: 26%;
+    margin-left: 37%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    border-bottom: 3px ridge white;
+}
+
+
+
+
+
+#cont{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 670px;
+    background-color: white;
+}
+
+
+
+#cont > div{
+    background-color: #1e2c6b;
+    padding: 30px;
+    height: ;
+    border: 1px solid white;
+}
+
+a{
+    text-decoration-line: none;
+    font-size: 1.5em;
+    color: white;
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+
+
+
+
+#credits > p{
+    color: white;
+    font-size: large;
+}
+
+#credits{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

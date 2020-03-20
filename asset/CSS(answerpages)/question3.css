@@ -3,6 +3,14 @@
     padding: 0px;
 }
 
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px) {
+  #container > * {
+    float: left;
+  }
+}
+
 body{
     background-image: url(../image/img4.jpg);
     text-decoration-color: white; 
@@ -123,4 +131,9 @@ body{
 
 #credits{
     padding-bottom: 30px;
-}   
+}  
+
+
+
+
+

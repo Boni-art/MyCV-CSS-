@@ -12,6 +12,29 @@ body{
 }
 
 
+#nav > a{
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+}
+
+#nav > a:hover{
+  background-color: gold;
+}
+
+
+#nav{
+    padding-top: 10px;
+    background-color: blueviolet;
+    height: 30px;
+}
+
+#nav > a:active{
+    background-color: tomato;
+}
+
+
+
 #one_text{
     text-transform: uppercase;
     color: white;
@@ -46,7 +69,7 @@ body{
     border: 1px solid white;
 }
 
-a{
+#cont > div > a{
     text-decoration-line: none;
     font-size: 1.5em;
     color: white;

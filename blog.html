@@ -39,16 +39,24 @@
         <section>
             <p class="title">em, rem and % VS px</p><br><br>
             <article>
-                <p> The origins of the Internet date back nearly 40 years, with the U.S. military's funding of a
-                    research network dubbed Arpanet in 1969. Since then, the Internet has undergone more than just
-                    a name change.</p>
-                <p> The number of computers connected to the Internet has grown exponentially, while
-                    the number of users has risen from a handful of computer scientists to
-                    1.5 billion consumers. The network's reach has expanded beyond the United States to every corner of the globe.
+                <p>
+                    Ems are a relative measure of length. The size of an em is relative to the font-size of its parent element.
+                    % are a relative measure of length just like em but only with a different scale of measurement. <br><br>
+                    
+                    Rems, root ems, are always relative to the font-size of the html element. It doesn’t matter how deeply nested an
+                    element is, its rem lengths will always be a proportion of the font-size of html>.
+                    px is an absolute unit of measurement in CSS. <br><br>
+                    
+                    So if we know what ems rems % and px are, In my opinion , it’s preferable if we use relative size like ems, rems and %
+                    rather than px. Because it helps the page to be responsive to the changes of screen and also alteration of the size of
+                    the browser (not the same as using the zooming feature of the browser). <br><br>
+                    But we should be careful not to use relative size on elements like borders and some others. And Thankfully, setting
+                    font-sizes in pixels doesn’t completely ruin accessibility. The user can still zoom in and out with ctrl plus +/- (cmd
+                    instead of ctrl on OS X). However, we must do better. <br><br>
+                    
+                    Generally, using relative size depends on the developer and the elements we are sizing.
+
                 </p>
-                <p> But its
-                    popularity has a dark side, as it has evolved from a friendly research network to a hotbed of criminal activity
-                    including fraud and identity theft.</p>
             </article>
             <p class="date">
                 March 20, 2020
@@ -57,40 +65,13 @@
         <section>
             <p class="title">How does the browser interpret it when we say 200px</p><br><br>
             <article>
-                <p>CSS3 allows developers to style HTML elements easier. They are less dependent on image files and can complete CSS
-                styling with fewer lines of code. And since CSS3 is backwards-compatible, its like no disadvantage to be considered.</p>
                 
+                <p>
+                   
                 
-                <h2>Main New Features</h2>
-                
-                <h3>Box Shadow</h3>
-                <p>One of the CSS3 new features is the box-shadow property that adds a shadow to an element. Instead of using multiple
-                images around an item, this property lets you add shadow with a short line of code.
-                Opacity</p>
-                <p>One of the CSS3 properties called opacity makes elements see-through or completely transparent.
-                For instance, you can apply opacity to images or other HTML elements. The transparency level depends on the indicated
-                values.</p>
-                
-                
-                <h3>Rounded Corners</h3>
-                <p>Before the release of CSS3, developers had to write long code to produce rounded corners. Now, it is enough to apply the
-                border-radius CSS3 property to HTML elements.</p>
-                
-                <h3>Attribute Selectors</h3>
-                <p>CSS3 also introduced new selectors in addition to the ones in CSS2. Instead of applying IDs or classes for styling,
-                developers can select HTML elements according to their attributes.
-                As a result, you do not have to create unique IDs only to apply CSS rules.
-                New Colors</p>
-                <ul>One of the CSS3 features is the addition of new colors:
-                    <li>RGBA</li>
-                    <li>HSL</li>
-                    <li>HSLA</li>
-                    <li>Gradient colors</li>
-                </ul> 
+                </p>
 
-                <h3>More than Web-Safe Fonts</h3>
-                <p>Instead of only using fonts labeled as web-safe, developers now can apply more unique fonts in their HTML documents.
-                Before that, CSS wanted to ensure that all browsers and machines display fonts the same.</p>
+
 
             </article>
             <p class="date">
@@ -143,7 +124,7 @@
             
             </article>
             <p class="date">
-                March 19, 2020
+                March 20, 2020
             </p>
         </section>
     </div>
